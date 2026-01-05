@@ -33,6 +33,6 @@ This project focuses on implementing fundamental game mechanics without using an
 ## 📂 Project Structure
 
 ## 🎮 Gameplay Screenshot
-![Gameplay](screenshots/GAMESCREENSHOT1.png)
+![Gameplay](Screenshots/GAME SCREENSHOT 1.png)
 
 
