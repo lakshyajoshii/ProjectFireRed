@@ -31,6 +31,7 @@ This project focuses on implementing fundamental game mechanics without using an
 ---
 
 ## 📂 Project Structure
+
 ProjectFireRed/
 ├── .settings/ # IDE-specific settings
 ├── bin/ # Compiled bytecode (generated)
@@ -52,5 +53,6 @@ ProjectFireRed/
 ├── .project # Eclipse project configuration
 └── README.md # Project documentation
 
+---
 ## 🎮 Gameplay Screenshot
 ![Game Screenshot](Screenshots/screenshot1.png)
