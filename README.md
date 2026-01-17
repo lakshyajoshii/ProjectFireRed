@@ -31,6 +31,26 @@ This project focuses on implementing fundamental game mechanics without using an
 ---
 
 ## 📂 Project Structure
+ProjectFireRed/
+├── .settings/ # IDE-specific settings
+├── bin/ # Compiled bytecode (generated)
+│ ├── entity/
+│ ├── main/
+│ ├── maps/
+│ ├── player/
+│ ├── tile/
+│ └── tiles/
+├── res/ # Game resources (sprites, maps, assets)
+├── Screenshots/ # Gameplay screenshots
+│ └── screenshot1.png
+├── src/ # Source code
+│ ├── entity/ # Game entities (NPCs, enemies, objects)
+│ ├── main/ # Main game loop & launcher
+│ └── tile/ # Tile & map rendering logic
+├── .classpath # Eclipse classpath configuration
+├── .gitignore # Git ignored files
+├── .project # Eclipse project configuration
+└── README.md # Project documentation
 
 ## 🎮 Gameplay Screenshot
 ![Game Screenshot](Screenshots/screenshot1.png)
