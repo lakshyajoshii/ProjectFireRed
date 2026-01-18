@@ -50,7 +50,7 @@ This project was built to gain a deeper understanding of how real-time systems w
 ---
 
 ## Project Structure
----
+```
 ProjectFireRed
 │
 ├── src
@@ -66,7 +66,7 @@ ProjectFireRed
 │ └── tiles
 │
 └── README.md
----
+```
 
 ## What This Project Demonstrates
 - Strong **Core Java** fundamentals  
