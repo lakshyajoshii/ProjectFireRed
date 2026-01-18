@@ -1,58 +1,98 @@
-# 🔥 ProjectFireRed
+# ProjectFireRed – 2D Top-Down Game Engine
 
-ProjectFireRed is a **2D top-down game** inspired by *Pokémon Fire Red*, built completely using **Java and Core Java concepts**.  
-This project focuses on implementing fundamental game mechanics without using any external game engines.
+## Overview
+**ProjectFireRed** is a 2D top-down game engine developed in **pure Java** without using any external game frameworks.  
+The project focuses on **core software engineering principles** such as object-oriented design, real-time game loops, state management, collision detection, and modular architecture.
 
----
-
-## 🎮 Features
-
-- 🗺️ Tile-based 2D map system  
-- 🚶 Player movement with collision detection  
-- 🌱 Multiple terrain types (grass, walls, water)  
-- 🎨 Sprite rendering using Java Graphics  
-- 🔄 Game loop (update & render cycle)  
-- 🧠 Core Java–based implementation  
+This project was built to gain a deeper understanding of how real-time systems work internally by implementing rendering, input handling, and gameplay logic from scratch.
 
 ---
 
-## 🛠️ Tech Stack
-
+## Tech Stack
 - **Language:** Java  
-- **Concepts Used:**  
-  - Object-Oriented Programming (OOP)  
-  - Game loop logic  
-  - Event handling  
-  - Arrays & data structures  
-  - File handling  
 - **Graphics:** Java AWT / Swing  
-- **IDE:** Eclipse / IntelliJ IDEA  
+- **Concepts:** OOP, Game Loop, Collision Detection, State Management  
+- **Tools:** Git, IntelliJ IDEA  
 
 ---
 
-## 📂 Project Structure
+## Key Features
 
-ProjectFireRed/
-├── .settings/ # IDE-specific settings
-├── bin/ # Compiled bytecode (generated)
-│ ├── entity/
-│ ├── main/
-│ ├── maps/
-│ ├── player/
-│ ├── tile/
-│ └── tiles/
-├── res/ # Game resources (sprites, maps, assets)
-├── Screenshots/ # Gameplay screenshots
-│ └── screenshot1.png
-├── src/ # Source code
-│ ├── entity/ # Game entities (NPCs, enemies, objects)
-│ ├── main/ # Main game loop & launcher
-│ └── tile/ # Tile & map rendering logic
-├── .classpath # Eclipse classpath configuration
-├── .gitignore # Git ignored files
-├── .project # Eclipse project configuration
-└── README.md # Project documentation
+### 🔁 Game Loop Architecture
+- Implemented a continuous **update–render cycle**
+- Handles real-time game state updates and rendering
+- Clear separation between game logic and drawing logic
+
+### 🗺️ Tile-Based Map System
+- Designed a grid-based world using tile maps
+- Supports different terrain types
+- Scalable structure for adding new maps or levels
+
+### 🚶 Player Movement & Input Handling
+- Keyboard-based player movement
+- Event-driven input handling
+- Frame-independent updates for smooth gameplay
+
+### 🧱 Collision Detection
+- Implemented collision logic to prevent invalid movement
+- Ensures correct interaction between player and environment
+- Uses bounding-based collision checks for efficiency
+
+### 🧩 Object-Oriented Design
+- Clean separation of responsibilities across classes
+- Modular and maintainable code structure
+- Easy to extend with new features or mechanics
+
+### 🎨 Sprite Rendering & Resource Management
+- Rendered sprites using Java Graphics APIs
+- Managed game assets through structured resource loading
 
 ---
-## 🎮 Gameplay Screenshot
-![Game Screenshot](Screenshots/screenshot1.png)
+
+## Project Structure
+
+ProjectFireRed
+│
+├── src
+│ ├── main
+│ │ ├── Main.java
+│ │ ├── GamePanel.java
+│ │ ├── KeyHandler.java
+│ │ ├── Player.java
+│ │ └── TileManager.java
+│
+├── resources
+│ ├── player
+│ └── tiles
+│
+└── README.md
+---
+
+## What This Project Demonstrates
+- Strong **Core Java** fundamentals  
+- Real-time system design using a game loop  
+- Object-oriented programming and modular architecture  
+- Logical problem-solving for movement, collision, and rendering  
+- Performance awareness in continuous update systems  
+
+---
+
+## Future Enhancements
+- Save and load game state
+- Config-driven levels (JSON/YAML)
+- NPC movement or basic AI
+- Performance optimizations for larger maps
+
+---
+
+## How to Run
+1. Clone the repository
+- git clone https://github.com/lakshyajoshii/ProjectFireRed.git
+
+2. Open the project in IntelliJ IDEA or Eclipse
+3. Run `Main.java`
+
+---
+
+## Author
+**Lakshya Joshi**  
