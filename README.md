@@ -50,7 +50,7 @@ This project was built to gain a deeper understanding of how real-time systems w
 ---
 
 ## Project Structure
-
+---
 ProjectFireRed
 │
 ├── src
