@@ -49,10 +49,11 @@ public class GamePanel extends JPanel implements Runnable {
 		this.addKeyListener(keyH);
 		this.setFocusable(true);
 	}
-	
+
 	public void setupGame() {
 		aSetter.setObject();
 	}
+
 	public void startGameThread() {
 		gameThread = new Thread(this);
 		gameThread.start();
@@ -115,8 +116,17 @@ public class GamePanel extends JPanel implements Runnable {
 		super.paintComponent(g);
 
 		Graphics2D g2 = (Graphics2D) g;
+
+		// Tile
 		tileM.draw(g2);
 
+		// Object
+		for (int i = 0; i < obj.length; i++) {
+			if (obj[i] != null) {
+				obj[i].draw(g2, this);
+			}
+		}
+		// Player
 		player.draw(g2);
 
 		g2.dispose();
